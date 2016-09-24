@@ -12,4 +12,4 @@
   - review init.el
   - set up REadme.org
 * Links
-  - [[http//cestlaz.github.io][Here's my Blog]]
+  - [http://cestlaz.github.io][Here's my Blog]]
