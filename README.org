@@ -24,4 +24,9 @@
 ** ibuffer
 ** tabbar-mode 
 
+* Lesson 4
+** Windows
+** winner-mode (windmove-default-keybindings) 
+** ace-window
+
 
