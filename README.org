@@ -13,5 +13,15 @@
   Show some org-mode
   - review init.el
   - set up REadme.org
+
 * Links
   - [http://cestlaz.github.io][Here's my Blog]]
+
+** For a list of all posts and videos check out [[http://cestlaz.github.io/stories/emacs][
+
+* Lesson 3
+** Buffer
+** ibuffer
+** tabbar-mode 
+
+
