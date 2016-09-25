@@ -29,4 +29,7 @@
 ** winner-mode (windmove-default-keybindings) 
 ** ace-window
 
+* Lesson 5
+** Search with swiper
+
 
