@@ -32,4 +32,9 @@
 * Lesson 5
 ** Search with swiper
 
+* Lesson 6
+  avy is a GNU Emacs package for jumpting to visible text using a char-based 
+  decision tree. Not sure what's the use case though.
+
+
 
