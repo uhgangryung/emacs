@@ -148,10 +148,20 @@
   ; try to automagically figure out indentation
 ;;  (setq py-smart-indentation t)
 ;;#+END_SRC
+
+* Python
+#+BEGIN_SRC emacs-lisp
+  (use-package jedi
+    :ensure t
+    :init
+    (add-hook 'python-mode-hook 'jedi:setup)
+    (add-hook 'python-mode-hook 'jedi:ac-setup))
+#+END_SRC
+
 * Flycheck
 #+BEGIN_SRC emacs-lisp
   (use-package flycheck
     :ensure t
     :init
     (global-flycheck-mode t))
-#+END_SRC
+#+END_SRC.

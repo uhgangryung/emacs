@@ -1,10 +1,8 @@
 import random
 
-x = 20
+def f(n):
+    return random.randrange(1,n)
 
-print "hello"
-
-for i in range(10):
-    print random, ranrange(1,10)
-
+for i in range(1,10):
+    print random.randrange(2,10)
 
