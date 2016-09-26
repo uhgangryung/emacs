@@ -36,5 +36,17 @@
   avy is a GNU Emacs package for jumpting to visible text using a char-based 
   decision tree. Not sure what's the use case though.
 
+* Lesson 8 
+  Auto-completion
 
+* Lesson 9
+  Theme (M-x customize-themes)
+  - zenburn theme
+
+* Lesson 10
+  myinit.org 
+** Clean way to prepare init.el with myinit.org
+
+
+  
 
