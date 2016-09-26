@@ -24,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (htmlize ox-reveal zenburn-theme which-key use-package try tabbar org-bullets evil-org elfeed-org counsel color-theme avy-flycheck auto-complete ace-window))))
+    (python-mode ob-ipython elpy jedi-core jedi-direx flymake-python-pyflakes htmlize ox-reveal zenburn-theme which-key use-package try tabbar org-bullets evil-org elfeed-org counsel color-theme avy-flycheck auto-complete ace-window))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

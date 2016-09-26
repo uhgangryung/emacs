@@ -47,6 +47,13 @@
   myinit.org 
 ** Clean way to prepare init.el with myinit.org
 
+* Lesson 11
+  jreveal and html configuration
+
+* Lesson 12
+  flycheck and Jedi for Python
+** Flyc [[www.flycheck.org][Flycheck]]
+   - flycheck with python packages
 
   
 
