@@ -1,0 +1,28 @@
+#+REVEAL_THEME: sky
+#+OPTIONS: toc:nil num:nil
+
+
+* Slide 1
+  here's short text.
+* SLide 2
+** subslide 1
+** subslide 2
+* Slide 3
+ #+ATTR_REVEAL: :frag roll-in
+ - list item 1
+ - list item 2
+   | a | b | c |
+   |---+---+---|
+   | 1 | 2 | 3 |
+   | 3 | 4 | 5 |
+   |---+---+---|
+* Slide 4
+  #+BEGIN_SRC python
+     def f(x)
+         return x + 1
+     print f(5)
+
+  #+END_SRC
+* Slide 5
+** [[https://github.com/zamansky/mazelesson][Zmansky's jreveal html demo]]
+
