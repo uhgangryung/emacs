@@ -5,6 +5,8 @@
 (tool-bar-mode -1)
 (fset 'yes-or-no-p' 'y-or-n-p)
 (global-set-key (kbd "<f5>") 'revert-buffer)
+(set-face-attribute 'default (selected-frame) :height 200)
+(show-paren-mode 1)
 #+END_SRC
 
 * try
