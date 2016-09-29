@@ -1,0 +1,49 @@
+* 9/28/2016 Emacs
+** Setting up the package manager
+  .emacs in the $(HOME) directory as a hidden file
+*** TODO backup .emacs to another file in case
+*** TODO backup .emacs.d to another directory name in case
+
+** TODO Inhibit startup message
+#+BEGIN_SRC emacs-lisp
+(setq inhibit-startup-message t)
+#+END_SRC
+** TODO Setting up package manager
+*** [[http://melpa.org/][melpa.org - packages]]
+*** TODO Add the following emacs-lisp code to .emacs.d/init.el
+#+BEGIN_SRC emacs-lisp
+ (require 'package)
+ (setq package-enable-at-stasrtup nil)
+ (add-to-list 'package-archives
+ 	      '("melpa" . "https://melpa.org/packages/"))
+ (package-initialize)
+#+END_SRC
+*** TODO Exit out of emacs and restart
+
+** List and install packages from melpa
+*** Startup emacs
+*** TODO ESC-x list-packages
+**** [[http://melpa.org/][should list the packages posted from melpa.org]]
+**** ESC-x package-refresh-contents
+*** TODO Install first package "use-package" by adding the following emacs-lisp to init.el
+**** The use-package helps you install other packages
+ #+BEGIN_SRC 
+   ;; Bootstrap 'use-package'
+   (unless (package-installed-p 'use-package)
+   (package-refresh-contents)
+   (package-install 'use-package))
+ #+END_SRC
+**** C-x C-e on the use-package emacs lisp expression
+** TODO Install try package by adding the following emacs-lisp statement
+*** Install try package using use-package
+#+BEGIN_SRC  emacs-lisp
+  (use-package try
+  :ensure t)
+#+END_SRC
+
+*** Install the package which-key 
+#+BEGIN_SRC emacs-lisp
+   (use-package which-key
+      :ensure t
+      :config (which-key-mode))
+#+END_SRC
