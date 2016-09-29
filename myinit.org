@@ -3,6 +3,9 @@
 #+BEGIN_SRC emacs-lisp
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
 (fset 'yes-or-no-p' 'y-or-n-p)
 (global-set-key (kbd "<f5>") 'revert-buffer)
 (set-face-attribute 'default (selected-frame) :height 200)
@@ -18,6 +21,12 @@
 * which key
 **   Brings up some help
    #+BEGIN_SRC emacs-lisp
+   (when (eq system-type 'darwin) ;;mac specific settings
+     (setq mac-option-modifier 'alt)
+     (setq mac-command-modifier 'meta)
+     (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
+     )     
+
    (use-package which-key
       :ensure t
       :config (which-key-mode))
